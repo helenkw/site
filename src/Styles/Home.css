@@ -1,0 +1,54 @@
+.home-grid {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  padding: 4rem;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.home-container {
+  box-sizing: border-box;
+  align-items: center;
+
+  padding: 2rem;
+  width: 100%;
+  max-width: 60rem;
+
+  border: .15rem solid;
+  border-radius: 20px;
+  border-color: var(--theme-color-half);
+  box-shadow: 0 0 10px var(--theme-color-light);
+}
+
+.profileimg {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.hello {
+  font-size: 125%;
+  padding: .2rem;
+}
+
+.home-icon {
+  color: var(--theme-color);
+  padding: 0px 4px;
+}
+
+.home-icon:hover {
+  color: var(--red);
+}
+
+a {
+  color: inherit;
+  color: var(--theme-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--red);
+}

@@ -1,0 +1,40 @@
+.stuck {
+  padding: 1rem;
+  background-color: var(--theme-color-light);
+  position: fixed;
+  width: 100%;
+}
+
+.header-container {
+  top: 0;
+  left: 0;
+}
+
+.footer-container {
+  bottom: 0;
+  left: 0;
+}
+
+.menu-list a {
+  font-weight: 500;
+  color: var(--main-text-color);
+
+  border-radius: 2px;
+  display: block;
+  padding: 0.3em 0.5em;
+}
+
+.menu-list a:hover {
+  color: var(--theme-color);
+  background-color: transparent;
+}
+
+.menu-list li ul {
+  border-left: 1px solid var(--grey-dark);
+  margin: 0.75em;
+  padding-left: 0.75em;
+}
+
+.is-hidden {
+  display: none;
+}

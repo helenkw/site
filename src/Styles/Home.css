@@ -4,7 +4,7 @@
   align-items: center;
   display: flex;
 
-  padding: 4rem;
+  padding: 2.5rem;
   min-height: 100vh;
   width: 100%;
 }
@@ -40,7 +40,7 @@
 }
 
 .home-icon:hover {
-  color: var(--red);
+  color: var();
 }
 
 a {
@@ -50,5 +50,10 @@ a {
 }
 
 a:hover {
-  color: var(--red);
+  color: var(--theme-color-dark);
+}
+
+.note {
+  color: var(--theme-color-faded);
+  font-size: .8rem;
 }

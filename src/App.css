@@ -15,7 +15,7 @@
 
  /* 
   * Colors 
-  * https://coolors.co/fbf9f3-2b2a2a-ffa977-fa896b-e35a51
+  * https://coolors.co/fbf9f3-2b2a2a-f4c4a8-ffa977-fa896b-e35a51
   */
 
 :root {
@@ -24,6 +24,7 @@
 
   --yellow: #ffe78f;
   --orange: #ffa977;
+  --orange-faded: #f4c4a8;
   --orange-red: #fa896b;
   --orange-red-half: rgb(250, 137, 107, .75);
   --red: #e35a51;
@@ -34,6 +35,8 @@
   --theme-color: var(--orange-red);
   --theme-color-half: var(--orange-red-half);
   --theme-color-light: var(--orange);
+  --theme-color-dark: var(--red);
+  --theme-color-faded: var(--orange-faded);
 }
 
 html {

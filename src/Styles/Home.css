@@ -40,7 +40,7 @@
 }
 
 .home-icon:hover {
-  color: var();
+  color: var(--theme-color-dark);
 }
 
 a {

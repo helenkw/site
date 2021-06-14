@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../Styles/Home.css';
-import ProfileImg from "../Assets/giraffe.jpg";
+import ProfileImg from "../Assets/helen.png";
 
 import Grid from '@material-ui/core/Grid';
 import GitHubIcon from '@material-ui/icons/GitHub';

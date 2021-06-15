@@ -7,7 +7,8 @@ import { Header, Footer } from './Components/HeaderFooter';
 
 const App = () => (
   <Router>
-    <Header />
+    <Route exact path='/' component={Header} />
+    <Route path='/:page' component={Header} />
 
     <Switch>
       <Route path='/' component={Home} />

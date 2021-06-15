@@ -44,8 +44,6 @@ const Home = () => (
           and there's also a good chance you'll find me biking around Boston or making redundant spreadsheets.
           <br/> <br/>
           Reach me at <a href='mailto:helenwang@mit.edu'>helenwang@mit.edu</a>; I'm happy to talk! 
-
-          <p className='note'><br/>This site's currently a work in progress—feel free to reach out about anything!</p>
         </p>
       </Grid>
 

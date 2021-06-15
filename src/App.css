@@ -8,7 +8,6 @@
 }
 
 #root {
-  text-align: center;
   display: flex;
   flex-direction: column;
 }
@@ -24,7 +23,6 @@
 
   --yellow: #ffe78f;
   --orange: #ffa977;
-  --orange-faded: #f4c4a8;
   --orange-red: #fa896b;
   --orange-red-half: rgb(250, 137, 107, .75);
   --red: #e35a51;
@@ -33,10 +31,9 @@
   --main-text-color: var(--off-black);
 
   --theme-color: var(--orange-red);
-  --theme-color-half: var(--orange-red-half);
-  --theme-color-light: var(--orange);
+  --theme-color-light: var(--orange); 
   --theme-color-dark: var(--red);
-  --theme-color-faded: var(--orange-faded);
+  --theme-color-half: var(--orange-red-half); /* 75% opacity */
 }
 
 html {

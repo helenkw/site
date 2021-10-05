@@ -30,8 +30,8 @@ const Home = () => (
       <Grid item xs={12} md={8} className='bio'>
         <p>
           I study computer science at MIT. 
-          This summer, I'm working with the Enterprise Engineering team at Two Sigma. 
-          In the past, I've conducted research in math and CS at Texas State University.
+          This summer, I worked with the Enterprise Engineering team at Two Sigma. 
+          In the past, I've also conducted research in math and CS at Texas State University.
           <br/> <br/>
           On campus, I'm involved with {' '} 
           <a href='https://hackmit.org/' target='_blank' rel='noopener noreferrer'>
@@ -41,7 +41,7 @@ const Home = () => (
           <a href='https://www.instagram.com/mitclassof2024/' target='_blank' rel='noopener noreferrer'>
             MIT 2024 Class Council</a>. {' '} 
           I enjoy graphic design and working through my list of unread books, {' '} 
-          and there's also a good chance you'll find me biking around Boston or making redundant spreadsheets.
+          and there's also a good chance you'll find me taking long walks through Boston or making spreadsheets.
           <br/> <br/>
           Reach me at <a href='mailto:helenwang@mit.edu'>helenwang@mit.edu</a>; I'm happy to talk! 
         </p>

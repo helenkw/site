@@ -35,12 +35,12 @@ const Home = () => (
           <br/> <br/>
           On campus, I'm involved with {' '} 
           <a href='https://hackmit.org/' target='_blank' rel='noopener noreferrer'>
-            HackMIT</a>, {' '} 
-          <a href='https://campkesem.org/find-a-camp/camp-kesem-at-mit' target='_blank' rel='noopener noreferrer'>
-            Camp Kesem</a>, and the {' '} 
+            HackMIT</a> and the {' '} 
           <a href='https://www.instagram.com/mitclassof2024/' target='_blank' rel='noopener noreferrer'>
             MIT 2024 Class Council</a>. {' '} 
-          I enjoy graphic design and working through my list of unread books, {' '} 
+          I enjoy graphic design and working through my list of {' '}
+          <a href='https://www.goodreads.com/helenkw' target='_blank' rel='noopener noreferrer'>
+            unread books</a>, 
           and there's also a good chance you'll find me taking long walks through Boston or making spreadsheets.
           <br/> <br/>
           Reach me at <a href='mailto:helenwang@mit.edu'>helenwang@mit.edu</a>; I'm happy to talk! 

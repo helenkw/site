@@ -14,7 +14,7 @@
 
  /* 
   * Colors 
-  * https://coolors.co/fbf9f3-2b2a2a-f4c4a8-ffa977-fa896b-e35a51
+  * https://coolors.co/a3e7f7-3bbbd1-0d87a6-f8fdff-fbf9f3-2b2a2a-ffe78f-ffa977-fa896b-e35a51
   */
 
 :root {
@@ -27,13 +27,19 @@
   --orange-red-half: rgb(250, 137, 107, .75);
   --red: #e35a51;
 
-  --main-bg-color: var(--off-white);
+  --off-white-blue: #F8FDFF;
+  --blue: #3bbbd1;
+  --blue-light: #A3E7F7;
+  --blue-dark: #0d87a6;
+  --blue-half: rgb(59, 187, 209, .75);
+
+  --main-bg-color: var(--off-white-blue);
   --main-text-color: var(--off-black);
 
-  --theme-color: var(--orange-red);
-  --theme-color-light: var(--orange); 
-  --theme-color-dark: var(--red);
-  --theme-color-half: var(--orange-red-half); /* 75% opacity */
+  --theme-color: var(--blue);
+  --theme-color-light: var(--blue-light); 
+  --theme-color-dark: var(--blue-dark);
+  --theme-color-half: var(--blue-half); 
 }
 
 html {

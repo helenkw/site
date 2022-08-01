@@ -48,8 +48,9 @@ const Home = () => (
 
       <Grid item xs={12} md={8} className="bio">
         <p>
-          I study computer science at MIT. Last summer, I worked with the
-          Enterprise Engineering team at Two Sigma. In the past, I've conducted
+          I study computer science at MIT. Over the last two summers, 
+          I worked with the Enterprise Engineering and Trading Engineering 
+          teams at Two Sigma. In the past, I've conducted
           research in math and CS at Texas State University, and at MIT, I've
           done work in the intersection of data science and political science.
           <br /> <br />

@@ -45,16 +45,68 @@ const Home = () => (
           <EmailIcon fontSize="small" className="home-icon" />
         </a>
       </Grid>
-
       <Grid item xs={12} md={8} className="bio">
         <p>
-          I study computer science at MIT. Over the last two summers, 
-          I worked with the Enterprise Engineering and Trading Engineering 
-          teams at Two Sigma. In the past, I've conducted
-          research in math and CS at Texas State University, and at MIT, I've
-          done work in the intersection of data science and political science.
+          I study computer science and political science at MIT.
+          I've worked on trading systems during internships at{" "}
+          <a
+            href="https://www.twosigma.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Two Sigma
+          </a>
+          {" "}and{" "}
+          <a
+            href="https://fiverings.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Five Rings
+          </a>
+          , and most recently I helped build emissions calculators at the climate startup{" "}
+          <a
+            href="https://watershed.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Watershed
+          </a>.
+
           <br /> <br />
-          On campus, I'm involved with{" "}
+          On campus, I'm{" "}
+          <a
+            href="https://bc.mit.edu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            involved
+          </a>
+          {" "}in a{" "}
+          <a
+            href="http://ua.mit.edu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            handful
+          </a>
+          {" "}of{" "}
+          <a
+            href="https://dancetroupe.mit.edu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            student
+          </a>
+          {" "}
+          <a
+            href="https://www.instagram.com/mitclassof2024/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            clubs
+          </a>
+          , and I used to be a {" "}
           <a
             href="https://hackmit.org/"
             target="_blank"
@@ -62,16 +114,7 @@ const Home = () => (
           >
             HackMIT
           </a>
-          , the{" "}
-          <a
-            href="https://www.instagram.com/mitclassof2024/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            MIT 2024 Class Council
-          </a>
-          , and the archery club. I enjoy graphic design and working through my
-          list of{" "}
+          {" "}organizer. I enjoy graphic design and working through my list of{" "}
           <a
             href="https://www.goodreads.com/helenkw"
             target="_blank"

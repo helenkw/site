@@ -28,10 +28,10 @@
   --red: #e35a51;
 
   --off-white-blue: #F8FDFF;
-  --blue: #3bbbd1;
-  --blue-light: #A3E7F7;
-  --blue-dark: #0d87a6;
-  --blue-half: rgb(59, 187, 209, .75);
+  --blue: #6691bd;
+  --blue-light: #94b2d1;
+  --blue-dark: #1e5a96;
+  --blue-half: rgb(102, 145, 189, .4);
 
   --main-bg-color: var(--off-white-blue);
   --main-text-color: var(--off-black);

@@ -16,7 +16,7 @@
 
   padding: 2rem;
   width: 100%;
-  max-width: 60rem;
+  max-width: 50rem;
 
   border: .15rem solid;
   border-radius: 20px;
@@ -33,6 +33,10 @@
 .hello {
   font-size: 125%;
   padding: .2rem;
+}
+
+.bio {
+  padding-left: 2rem;
 }
 
 .home-icon {

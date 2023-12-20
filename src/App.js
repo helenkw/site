@@ -1,21 +1,27 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import './App.css';
-import Home from './Components/Home';
-import { Header, Footer } from './Components/HeaderFooter';
+import "./App.css";
+
+import Navigation from "./navigation/Navigation";
+import About from "./about/About";
+import Classes from "./classes/Classes";
+
+import { Grid } from "@material-ui/core";
+import { Stack } from "@mui/material";
 
 const App = () => (
-  <Router>
-    <Route exact path='/' component={Header} />
-    <Route path='/:page' component={Header} />
-
-    <Switch>
-      <Route path='/' component={Home} />
-    </Switch>
-
-    <Footer />
-  </Router>
+  <Grid className="app-grid">
+    <Stack direction="row" className="app-container">
+      <Router>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="classes" element={<Classes />} />
+        </Routes>
+      </Router>
+    </Stack>
+  </Grid>
 );
 
 export default App;

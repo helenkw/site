@@ -1,0 +1,40 @@
+#navigation {
+  min-width: 20%;
+  display: flex;
+  justify-content: right;
+  align-content: right;
+  justify-items: right;
+  align-items: right;
+}
+
+#navigation .item {
+  display: flex;
+  justify-content: right;
+  padding: 8px 0px;
+  cursor: pointer;
+  position: relative;
+}
+
+#navigation .item .icon {
+  margin-right: 10px;
+}
+
+#navigation .border {
+  position: absolute;
+  top: 15%;
+  bottom: 20%;
+  right: 0;
+  transition: all 0.15s;
+}
+
+#navigation .c1 .hovered .border {
+  border-right: 3px solid var(--green-dark);
+}
+
+#navigation .c2 .hovered .border {
+  border-right: 3px solid var(--blue-dark);
+}
+
+#navigation .c3 .hovered .border {
+  border-right: 3px solid var(--purple-dark);
+}

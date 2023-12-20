@@ -1,0 +1,14 @@
+#about .profileimg {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+#about .hello {
+  font-size: 125%;
+  padding: 0.2rem;
+}
+
+#about .icon {
+  padding: 0px 4px;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./About.css";
+import Link from "../utility/Link";
 import ProfileImg from "./helen.png";
 
 import Grid from "@material-ui/core/Grid";
@@ -9,13 +10,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 
-const Link = ({ href, children, className }) => (
-  <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
-    {children}
-  </a>
-);
-
-const Icon = ({ href, icon: Icon }) => (
+const AboutIcon = ({ href, icon: Icon }) => (
   <Link href={href} className="c2">
     <Icon fontSize="small" className="icon" />
   </Link>
@@ -27,10 +22,13 @@ const About = () => (
       <img src={ProfileImg} className="profileimg" alt="helen" />
       <p className="hello">Hello, I'm Helen!</p>
 
-      <Icon href="https://github.com/helenkw" icon={GitHubIcon} />
-      <Icon href="https://twitter.com/helenwang07" icon={TwitterIcon} />
-      <Icon href="https://www.linkedin.com/in/helenkwang/" icon={LinkedInIcon} />
-      <Icon href="mailto:helenwang@mit.edu" icon={EmailIcon} />
+      <AboutIcon href="https://github.com/helenkw" icon={GitHubIcon} />
+      <AboutIcon href="https://twitter.com/helenwang07" icon={TwitterIcon} />
+      <AboutIcon
+        href="https://www.linkedin.com/in/helenkwang/"
+        icon={LinkedInIcon}
+      />
+      <AboutIcon href="mailto:helenwang@mit.edu" icon={EmailIcon} />
     </Grid>
     <Grid item xs={12} md={7} className="bio">
       <p>

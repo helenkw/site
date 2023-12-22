@@ -1,0 +1,28 @@
+#classes .course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+#classes .course-header {
+  padding: 0.2rem 1rem;
+  max-width: fit-content;
+  border-radius: 10rem;
+  border-width: 0.085rem;
+  border-style: solid;
+  margin-left: 3rem; /* center-ish over class names */
+  margin-bottom: 0.7rem;
+}
+
+#classes .classNumbers {
+  font-size: 80%;
+  font-weight: 600;
+  line-height: 1.7rem;
+}
+
+#classes .classNames {
+  font-size: 90%;
+  line-height: 1.7rem;
+}

@@ -88,32 +88,40 @@ a {
 
 .c0 {
   color: var(--grey, inherit);
+  border-color: var(--grey, inherit);
   text-decoration: none;
 }
-.c0:hover {
+a.c0:hover {
   color: var(--grey-dark);
+  border-color: var(--grey-dark);
 }
 
 .c1 {
   color: var(--green, inherit);
+  border-color: var(--green, inherit);
   text-decoration: none;
 }
-.c1:hover {
+a.c1:hover {
   color: var(--green-dark);
+  border-color: var(--green-dark);
 }
 
 .c2 {
   color: var(--blue, inherit);
+  border-color: var(--blue, inherit);
   text-decoration: none;
 }
-.c2:hover {
+a.c2:hover {
   color: var(--blue-dark);
+  border-color: var(--blue-dark);
 }
 
 .c3 {
   color: var(--purple, inherit);
+  border-color: var(--purple, inherit);
   text-decoration: none;
 }
-.c3:hover {
+a.c3:hover {
   color: var(--purple-dark);
+  border-color: var(--purple-dark);
 }

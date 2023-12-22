@@ -12,7 +12,8 @@ const NavigationItem = ({ icon, text, to, isExpanded, color }) => {
       to={to.startsWith("https://") ? { pathname: to.replace("https:", "") } : to}
       target={to.startsWith("https://") ? "_blank" : null}
       className={({ isActive }) =>
-        `item ${hovered || isActive ? color : "c0"}` + (isActive ? " active" : "")
+        `item ${hovered || (isActive && !isExpanded) ? color : "c0"}` +
+        (isActive ? " active" : "")
       }
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}

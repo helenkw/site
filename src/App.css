@@ -82,6 +82,13 @@ html {
   max-width: 50rem;
 }
 
+.watermelon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 a {
   transition: all 0.1s ease;
 }

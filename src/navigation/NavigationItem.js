@@ -19,7 +19,7 @@ const NavigationItem = ({ icon, text, to, isExpanded, color }) => {
       onMouseLeave={() => setHovered(false)}
     >
       <Stack direction="row" spacing={2} className={`${hovered ? "hovered" : ""}`}>
-        {isExpanded && <span className="text">{text}</span>}
+        <span className={`text ${isExpanded ? "expanded" : ""}`}>{text}</span>
         <span className="icon">{icon}</span>
         <div className="border"></div>
       </Stack>

@@ -21,6 +21,7 @@ const Classes = () => (
         <Stack direction="column" className="classNumbers c2">
           6.08 <br />
           6.039 <br />
+          6.S079 <br />
           6.172 <br />
           6.865 <br />
           6.824 <br />
@@ -28,6 +29,7 @@ const Classes = () => (
         <Stack direction="column" className="classNames">
           Embedded Systems <br />
           Operating Systems <br />
+          Software Systems for Data Science <br />
           Software Performance Engineering <br />
           Computational Photography (G) <br />
           Distributed Systems (G) <br />
@@ -45,6 +47,7 @@ const Classes = () => (
           17.449 <br />
           17.483 <br />
           17.561 <br />
+          17.251 <br />
           GOV 1510 <br />
         </Stack>
         <Stack direction="column" className="classNames">
@@ -52,6 +55,7 @@ const Classes = () => (
           Emerging Tech & Intl. Security <br />
           US Military Power <br />
           European Politics <br />
+          Congress & American Political System <br />
           American Constitutional Law (Harvard) <br />
         </Stack>
       </Stack>

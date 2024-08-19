@@ -28,12 +28,16 @@ const About = () => (
         href="https://www.linkedin.com/in/helenkwang/"
         icon={LinkedInIcon}
       />
-      <AboutIcon href="mailto:helenwang@mit.edu" icon={EmailIcon} />
+      <AboutIcon href="mailto:helenkw@alum.mit.edu" icon={EmailIcon} />
     </Grid>
     <Grid item xs={12} md={7} className="bio">
       <p>
-        I study computer science and political science at MIT. I've worked on trading
-        systems during internships at{" "}
+        I'm a software engineer at the climate startup{" "}
+        <Link href="https://watershed.com/" className="c1">
+          Watershed
+        </Link>
+        , where I help build emissions calculators.
+        In past internships, I worked on trading systems at{" "}
         <Link href="https://www.twosigma.com/" className="c1">
           Two Sigma
         </Link>{" "}
@@ -41,44 +45,26 @@ const About = () => (
         <Link href="https://fiverings.com/" className="c1">
           Five Rings
         </Link>
-        , and most recently I helped build emissions calculators at the climate
-        startup{" "}
-        <Link href="https://watershed.com/" className="c1">
-          Watershed
-        </Link>
         .
         <br /> <br />
-        On campus, I'm{" "}
-        <Link href="https://bc.mit.edu/" className="c2">
-          involved
-        </Link>{" "}
-        in a{" "}
-        <Link href="http://ua.mit.edu/" className="c2">
-          handful
-        </Link>{" "}
-        of{" "}
-        <Link href="https://dancetroupe.mit.edu/" className="c2">
-          student
-        </Link>{" "}
-        <Link href="https://www.instagram.com/mitclassof2024/" className="c2">
-          clubs
-        </Link>
-        , and I used to be a{" "}
+
+        I recently graduated from MIT with a double major in
+        computer science and political science. 
+
+        On campus, I was deeply involved in student government 
+        and served as a{" "}
         <Link href="https://hackmit.org" className="c2">
           HackMIT
         </Link>{" "}
-        organizer. I enjoy graphic design and working through my list of{" "}
-        <Link href="https://www.goodreads.com/helenkw" className="c2">
+        organizer. 
+        <br /> <br />
+        
+        I enjoy graphic design and working through my list of{" "}
+        <Link href="https://www.goodreads.com/helenkw" className="c3">
           unread books
         </Link>
-        , and there's also a good chance you'll find me taking long walks through
-        Boston or making spreadsheets.
-        <br /> <br />
-        Reach me at{" "}
-        <a href="mailto:helenwang@mit.edu" className="c3">
-          helenwang@mit.edu
-        </a>
-        ; I'm happy to talk!
+        , and there's also a good chance you'll find me climbing, crocheting, 
+        or making spreadsheets. 
       </p>
     </Grid>
   </Grid>
